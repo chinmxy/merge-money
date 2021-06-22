@@ -1,7 +1,7 @@
 import React from "react";
 import Background from "./components/Background/Background";
 
-import logo from "./img/logo/merge-money-logo.png";
+// import logo from "./img/logo/merge-money-logo.png";
 
 import "./App.css";
 
@@ -12,7 +12,14 @@ const App = () => {
 			<div className='h-screen flex flex-col justify-center items-center'>
 				<div className='flex justify-center items-center space-x-4'>
 					<h1 className='text-7xl text-white font-bold'>
-						Merge <span className='text-dough-blue'>.</span> Money
+						Merge{" "}
+						<span
+							className='text-8xl text-dough-blue'
+							style={{ position: "relative", top: "7px" }}
+						>
+							·
+						</span>{" "}
+						Money
 					</h1>
 					{/* <img
 						src={logo}
